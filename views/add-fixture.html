@@ -1,0 +1,46 @@
+<div class = "add-fixture">
+    <h1>Add Fixture</h1>
+    <dl class = "input-table">
+        <dt>Week Number: <select id = "week"></select> </dt>
+        <dt>Home Team: <select id = "home-team"></select> Possession: <select id = "home-possession"></select> </dt>
+        <dt>Away Team: <select id = "away-team"></select> Possession: <select id = "away-possession"></select> </dt>
+    </dl>
+
+    <h1>Substitutions</h1>
+    <dl class = "input-table">
+        <dt>Team: <select id = "team"></select> On Player: <select id = "on-player"></select> Off Player: <select id = "off-player"></select> Time: <select id = "time"></select> </dt>
+        <button class = "button" id = "add-sub" type = "button">+</button><button class = "button" id = "add-sub" type = "button">-</button>
+    </dl>
+
+    <h1>Stats</h1>
+    <dl class = "input-table">
+        <table class = "input-table">
+            <tr>
+                <th>Player Number</th>
+                <th>Player</th>
+                <th>Minutes Played</th>
+                <th>Fouls</th>
+                <th>Successful Passes</th>
+                <th>Total Passes</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Yellow Cards</th>
+                <th>Red Cards</th>
+            </tr>
+            <tr>
+                <th id = player-number>#</th>
+                <th id = player-name>Player</th>
+                <th><input id = "minutes-played" type = "text"></input></th>
+                <th><input id = "fouls" type = "text"></input></th>
+                <th><input id = "passes-s" type = "text"></input></th>
+                <th><input id = "passes-t" type = "text"></input></th>
+                <th><input id = "goals" type = "text"></input></th>
+                <th><input id = "assists" type = "text"></input></th>
+                <th><input id = "y-cards" type = "text"></input></th>
+                <th><input id = "r-cards" type = "text"></input></th>
+            </tr>
+        </table>
+    </dl>
+
+    <button class = "button" id = "submit" type = "button">Submit</button>
+</div>
